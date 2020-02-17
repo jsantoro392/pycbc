@@ -137,7 +137,7 @@ for i, inj in enumerate(injections.table):
                 # The x, y, z spin components are wrt the orbital angular momentum
                 bh_spin_para = s1z
             bh_spin_inclination = numpy.arccos(bh_spin_para/bh_spin_magnitude)
-        # remnant_mass is the remnant disk mass, it is compared to the 
+        # remnant_mass is the remnant disk mass, it is compared to the
         # threshold set by the user to discriminate dim and bright
         remnant_mass = pycbc.tmpltbank.em_progenitors.remnant_mass( \
             eta, NSmass, ns_sequence, bh_spin_magnitude, bh_spin_inclination)
